@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+
+   <RadioButton
+       android:id="@+id/RadioButton1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Kirtankar"
+       android:layout_marginTop="4dp"
+       android:layout_marginLeft="4dp"
+       android:textSize="@dimen/profile_text"
+       android:padding="7dp"/>
+
+   <RadioButton
+       android:id="@+id/RadioButton2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Bhagavatacharya"
+       android:layout_marginTop="4dp"
+       android:layout_marginLeft="4dp"
+       android:textSize="@dimen/profile_text"
+       android:padding="7dp"/>
+
+   <RadioButton
+       android:id="@+id/RadioButton3"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Ramayanacharya"
+       android:layout_marginTop="4dp"
+       android:textSize="@dimen/profile_text"
+       android:layout_marginLeft="4dp"
+       android:padding="7dp"/>
+
+   <RadioButton
+       android:id="@+id/RadioButton4"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Pravachankar/ Prabodhankar"
+       android:layout_marginTop="4dp"
+       android:textSize="@dimen/profile_text"
+       android:layout_marginLeft="4dp"
+       android:padding="7dp"/>
+
+   <RadioButton
+       android:id="@+id/RadioButton5"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="4dp"
+       android:text="Gayanacharya"
+       android:layout_marginTop="4dp"
+       android:textSize="@dimen/profile_text"
+       android:padding="7dp"/>
+
+   <RadioButton
+       android:id="@+id/RadioButton6"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Mrudangacharya"
+       android:layout_marginTop="4dp"
+       android:textSize="@dimen/profile_text"
+       android:layout_marginLeft="4dp"
+       android:padding="7dp"/>
+   <RadioButton
+       android:id="@+id/RadioButton7"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="4dp"
+       android:text="Talkari"
+       android:layout_marginTop="4dp"
+       android:textSize="@dimen/profile_text"
+       android:padding="7dp"/>
+
+   <RadioButton
+       android:id="@+id/RadioButton8"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Member of Haripath Mandal"
+       android:layout_marginLeft="4dp"
+       android:layout_marginTop="4dp"
+       android:textSize="@dimen/profile_text"
+       android:padding="7dp"/>
+   <RadioButton
+       android:id="@+id/RadioButton9"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Member of Varkari bhajan Mandal"
+       android:layout_marginTop="4dp"
+       android:textSize="@dimen/profile_text"
+       android:padding="7dp"/>
+
+   <RadioButton
+       android:id="@+id/RadioButton10"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Member of Shri Vitthal temple"
+       android:layout_marginTop="4dp"
+       android:textSize="@dimen/profile_text"
+       android:layout_marginLeft="4dp"
+       android:padding="7dp"/>
+
+   <RadioButton
+       android:id="@+id/RadioButton11"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Owner - Varkari Shikshan Sanstha"
+       android:layout_marginTop="4dp"
+       android:textSize="@dimen/profile_text"
+       android:layout_marginLeft="4dp"
+       android:padding="7dp"/>
+
+   <RadioButton
+       android:id="@+id/RadioButton12"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Member-  Varkari Shikshan Sanstha"
+       android:layout_marginTop="4dp"
+       android:layout_marginLeft="4dp"
+       android:textSize="@dimen/profile_text"
+       android:padding="7dp"/>
+
+   <RadioButton
+       android:id="@+id/RadioButton13"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Member/ Owner of Varkari Welfare trust/ Sanstha"
+       android:layout_marginTop="4dp"
+       android:layout_marginLeft="4dp"
+       android:textSize="@dimen/profile_text"
+       android:padding="7dp"/>
+
+   <RadioButton
+       android:id="@+id/RadioButton14"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Varkari Sahitya Shop"
+       android:layout_marginTop="4dp"
+       android:layout_marginLeft="4dp"
+       android:textSize="@dimen/profile_text"
+       android:padding="7dp"/>
+
+   <RadioButton
+       android:id="@+id/RadioButton15"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Member of Shri Vitthal temple"
+       android:layout_marginTop="4dp"
+       android:textSize="@dimen/profile_text"
+       android:layout_marginLeft="4dp"
+       android:padding="7dp"/>
+
+   <RadioButton
+       android:id="@+id/RadioButton16"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="General Varkari"
+       android:layout_marginTop="4dp"
+       android:textSize="@dimen/profile_text"
+       android:layout_marginLeft="4dp"
+       android:padding="7dp"/>
+
+   <RadioButton
+       android:id="@+id/RadioButton17"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="General User"
+       android:layout_marginTop="4dp"
+       android:textSize="@dimen/profile_text"
+       android:padding="7dp"/>
+
+  </LinearLayout>
+
+</ScrollView>

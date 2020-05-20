@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Varkari</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_calender">Calender</string>
+    <string name="title_connection">Connections</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_menu">Menu</string>
+    <string name="title_post">Post</string>
+
+
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="list">List</string>
+    <string name="events">Events</string>
+    <string name="news_papers">News papers</string>
+    <string name="post_ad">Post ad</string>
+    <string name="e_learning">E-Learning</string>
+    <string name="sewak">Sewak</string>
+    <string name="donation">Donation</string>
+    <string name="order">Order</string>
+    <string name="sampletext">This app is made up for varkari sampraday. Download this and stay connected with us.</string>
+    <string name="create_event">Create Event</string>
+    <string name="dharmik_karyakram">Dharmik Karyakram</string>
+    <string name="speaker_name">Speaker Name</string>
+    <string name="event_name">Event Name</string>
+    <string name="organiser_name">Organiser Name</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashobard</string>
+    <string name="prompt_username">User Name</string>
+    <string name="prompt_fathername">Father Name</string>
+    <string name="prompt_mothername">Mother Name</string>
+    <string name="prompt_familyname">Family Name</string>
+    <string name="prompt_maharaj">"If Use, Maharaj / महाराज  in the name "</string>
+    <string name="prompt_DegreeName">"Degree/ उपाधी  given by society "</string>
+    <string name="prompt_ContactName">Contact Number</string>
+    <string name="prompt_AltContactName">Alternate Number</string>
+    <string name="prompt_EmailID">Email ID</string>
+    <string name="prompt_Gender">Gender</string>
+
+    <string-array name="spinner_maharaj">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <!--Array for create event drop down-->
+    <string-array name="event_type">
+
+        <item>Kirtan Mohotsav</item>
+        <item>Saptah</item>
+        <item>Gatha Parayan</item>
+        <item>Dhyaneshwari Pathan</item>
+        <item>Ram Katha</item>
+        <item>Bhagwat katha</item>
+        <item>Vitthal Nam Jap</item>
+        <item>Kirtan</item>
+        <item>Pravachan</item>
+        <item>Haripath</item>
+        <item>Bhajan</item>
+        <item>Varkari Workshop/ Shibir</item>
+        <item>Varkari Sammelan</item>
+        <item>Palakhi Miravanuk</item>
+
+    </string-array>
+
+</resources>

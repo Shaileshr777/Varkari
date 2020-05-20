@@ -1,0 +1,2 @@
+rootProject.name='Varkari'
+include ':app'

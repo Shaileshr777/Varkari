@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ProfileActivity"
+    android:scrollbars="vertical"
+    android:orientation="vertical">
+
+    <include layout="@layout/profile_picture"/>
+
+    <com.alespero.expandablecardview.ExpandableCardView
+        android:id="@+id/general_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:title="General Information"
+        app:inner_view="@layout/k1"
+        android:scrollbars="vertical"
+        android:background="@color/AntiqueWhite"
+        app:expandOnClick="true"/>
+
+    <com.alespero.expandablecardview.ExpandableCardView
+        android:id="@+id/primary_speciality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:title="Primary Speciality"
+        android:background="@color/AntiqueWhite"
+        app:inner_view="@layout/layout_primary_speciality"
+        app:expandOnClick="true"/>
+
+    <com.alespero.expandablecardview.ExpandableCardView
+        android:id="@+id/secondary_speciality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:title="Secondary Speciality"
+        app:inner_view="@layout/layout_primary_speciality"
+        android:scrollbars="vertical"
+        android:background="@color/AntiqueWhite"
+        app:expandOnClick="true"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+       />
+
+</LinearLayout>

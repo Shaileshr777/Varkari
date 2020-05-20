@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/profile_TextUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/prompt_username"
+                android:textSize="@dimen/subheaderTextSize" />
+
+            <EditText
+                android:id="@+id/profile_EditUsername"
+                android:layout_width="150dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="40dp"
+                android:layout_marginRight="5dp"
+                android:textSize="@dimen/subheaderTextSize" />
+
+            <TextView
+                android:id="@+id/profile_textFatherName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profile_TextUserName"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/prompt_fathername"
+                android:textSize="@dimen/subheaderTextSize" />
+
+            <EditText
+                android:id="@+id/profile_editFatherName"
+                android:layout_width="150dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/profile_EditUsername"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginRight="5dp"
+                android:textSize="@dimen/subheaderTextSize" />
+
+            <TextView
+                android:id="@+id/profile_TextMotherName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profile_textFatherName"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/prompt_mothername"
+                android:textSize="@dimen/subheaderTextSize" />
+
+
+            <EditText
+                android:id="@+id/profile_editMotherName"
+                android:layout_width="150dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/profile_editFatherName"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginRight="5dp"
+                android:textSize="@dimen/subheaderTextSize" />
+
+
+            <TextView
+                android:id="@+id/profile_TextFamilyName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profile_TextMotherName"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/prompt_familyname"
+                android:textSize="@dimen/subheaderTextSize" />
+
+
+            <EditText
+                android:id="@+id/profile_editFamilyName"
+                android:layout_width="150dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/profile_editMotherName"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:textSize="@dimen/subheaderTextSize" />
+
+            <TextView
+                android:id="@+id/profile_TextContactName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profile_TextFamilyName"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/prompt_ContactName"
+                android:textSize="@dimen/subheaderTextSize" />
+
+
+            <EditText
+                android:id="@+id/profile_editContactName"
+                android:layout_width="150dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/profile_editFamilyName"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:inputType="number"
+                android:textSize="@dimen/subheaderTextSize"/>
+
+            <TextView
+                android:id="@+id/profile_TextAltContactName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profile_TextContactName"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/prompt_AltContactName"
+                android:textSize="@dimen/subheaderTextSize" />
+
+
+            <EditText
+                android:id="@+id/profile_editAltContactName"
+                android:layout_width="150dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/profile_editContactName"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:inputType="number"
+                android:textSize="@dimen/subheaderTextSize"/>
+
+            <TextView
+                android:id="@+id/profile_TextEmailID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profile_TextAltContactName"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/prompt_EmailID"
+                android:textSize="@dimen/subheaderTextSize" />
+
+
+            <EditText
+                android:id="@+id/profile_editEmailID"
+                android:layout_width="150dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/profile_editAltContactName"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:inputType="number"
+                android:textSize="@dimen/subheaderTextSize"/>
+
+            <TextView
+                android:id="@+id/profile_TextDegree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profile_TextEmailID"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/prompt_DegreeName"
+                android:textSize="@dimen/subheaderTextSize" />
+
+
+            <EditText
+                android:id="@+id/profile_editDegree"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/profile_editEmailID"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:inputType="number"
+                android:textSize="@dimen/subheaderTextSize"/>
+
+            <TextView
+                android:id="@+id/profile_TextGender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profile_TextDegree"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/prompt_Gender"
+                android:textSize="@dimen/subheaderTextSize" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/profile_TextGender">
+
+                <RadioButton
+                    android:id="@+id/Radio_male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:padding="5dp"
+                    android:text="Male" />
+
+                <RadioButton
+                    android:id="@+id/Radio_female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:padding="5dp"
+                    android:text="Female" />
+
+                <RadioButton
+                    android:id="@+id/Radio_notsay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:padding="5dp"
+                    android:text="Prefer Not to say" />
+
+
+            </RadioGroup>
+
+
+        </RelativeLayout>
+</ScrollView>
